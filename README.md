@@ -41,6 +41,8 @@ You will get started within few minutes.
 
 ### Updates to ground truth datasets and pretrained models:
 
+***2026-02-11*** - There is now a fully working version of Cascade using Torch instead of Tensorflow: [CascadeTorch](https://github.com/PTRRupprecht/CascadeTorch). Torch-based CASCADE uses the same models trained for CASCADE (the pretrained models and weights were converted to Torch models), and inference results and output format are therefore identical between Cascade and CascadeTorch. Early feedback is highly welcome!
+
 ***2025-11-15*** - There are now plans to switch Cascade from Tensorflow as deep learning framework to PyTorch or JAX. If you are interested in participating in this transition, [please reach out](https://github.com/HelmchenLabSoftware/Cascade/issues/81). Note: The current version of Cascade will be supported continuously, irrespective of this new development.
 
 ***2025-06-03*** - Spike times for dataset #21 were found to be misaligned (see issue [#76](https://github.com/HelmchenLabSoftware/Cascade/issues/76)). The corrected ground truth data for the two affected neurons was uploaded and replaced the previous data.
