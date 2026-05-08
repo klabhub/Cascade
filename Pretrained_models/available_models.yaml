@@ -1,7 +1,7 @@
 ###
 ### Download links for available models
 ###
-### Last update: May 22th 2025
+### Last update: May 8th 2026
 
 Global_EXC_1Hz_smoothing500ms:
     Link: https://drive.switch.ch/index.php/s/ZAc2kNO0aqSO3ja/download
@@ -374,6 +374,9 @@ GC8f_EXC_30Hz_smoothing50ms_high_noise:
     Info:
 GC8f_EXC_30Hz_smoothing25ms_high_noise:
     Link: https://drive.switch.ch/index.php/s/bmWzhQvNuYpiR62/download
+    Info:
+GC8f_EXC_20Hz_smoothing40ms_high_noise:
+    Link: https://drive.switch.ch/index.php/s/7v9bw5T412xZxxD/download
     Info:
 GC8f_EXC_15Hz_smoothing50ms_high_noise:
     Link: https://drive.switch.ch/index.php/s/ZXb7BCmrhCA2OKZ/download
