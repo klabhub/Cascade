@@ -39,6 +39,21 @@ cfgs = [
         # For additional parameters, you can find their names in the cascade2p/config.py
         # file in the config_template string
     ),
+    dict(
+        model_name="GC8+_INH_15Hz_smoothing100ms_high_noise",  # Model name (and name of the save folder)
+        sampling_rate=15,  # Sampling rate in Hz (round to next integer)
+        training_datasets=[
+            "DS33-Interneurons2023-m-V1"
+        ],
+        noise_levels=[
+            noise for noise in range(1, 10)
+        ],  # int values of noise values (do not use numpy here => representer error!)
+        smoothing=0.1,  # std of Gaussian smoothing in time (sec)
+        causal_kernel=0,  # causal ground truth smoothing kernel
+        # Advanced:
+        # For additional parameters, you can find their names in the cascade2p/config.py
+        # file in the config_template string
+    ),
 ]
 
 
